@@ -1,17 +1,33 @@
 {
-  "name": "covid19",
-  "displayName": "covid19",
+  "name": "Covid19",
+  "displayName": "Covid19",
   "expo": {
-    "name": "covid19",
-    "slug": "covid19",
-    "version": "1.0.0",
+    "name": "Covid19",
+    "slug": "Covid19",
+    "version": "1.0.0",    
     "platforms": [
       "ios",
       "android",
       "web"
     ],
+    "version": "1.0.0",
+    "orientation": "portrait",    
+    "splash": {      
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "android": {
+      "package": "com.samir.covid19App",
+      "versionCode": 1
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "ios": {
+      "supportsTablet": true
+    }
   }
 }
